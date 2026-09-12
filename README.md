@@ -10,7 +10,7 @@ Portal web de **Descubre Ventanas**, una agencia de turismo ficticia creada con 
 
 El proyecto fue desarrollado como examen práctico de la asignatura, aplicando estructura semántica HTML5, formularios, CSS3 (Box Model, Flexbox, Grid, diseño responsive) y control de versiones con Git y GitHub.
 
-> Toda la información turística fue investigada a partir de fuentes públicas sobre el cantón Ventanas (Wikipedia, ViajandoX, entre otras). El logotipo y las ilustraciones son gráficos vectoriales (SVG) elaborados para este proyecto académico; se recomienda reemplazarlos por fotografías reales del cantón antes de la entrega final.
+> Toda la información turística fue investigada a partir de fuentes públicas sobre el cantón Ventanas (Wikipedia, ViajandoX, entre otras). El logotipo es una ilustración vectorial (SVG) elaborada para este proyecto; las fotografías de los atractivos son imágenes reales incorporadas por el estudiante.
 
 ## Páginas del sitio
 
@@ -48,7 +48,9 @@ descubre-ventanas/
 └── images/
     ├── logo.svg
     ├── hero.svg
-    └── destino1.svg ... destino6.svg
+    ├── destino1.jpg, destino2.jpg, destino3.jpg, destino4.jpg
+    ├── destino5.jpeg
+    └── destino6.png
 ```
 
 ## Captura del sitio
