@@ -61,23 +61,14 @@ descubre-ventanas/
 
 ## Repositorio y sitio publicado
 
-- **Repositorio GitHub:** `https://github.com/<tu-usuario-github>/descubre-ventanas`
-- **Sitio publicado (GitHub Pages):** `https://<tu-usuario-github>.github.io/descubre-ventanas/`
-
-*(Reemplaza `<tu-usuario-github>` por tu usuario real de GitHub una vez creado el repositorio y actualiza este enlace).*
+- **Repositorio GitHub:** https://github.com/pcuisana7-lgtm/descubre-ventanas
+- **Sitio publicado (GitHub Pages):** https://pcuisana7-lgtm.github.io/descubre-ventanas/
 
 ## Cómo publicar este proyecto en GitHub Pages
 
-1. Crea un repositorio público en GitHub llamado, por ejemplo, `descubre-ventanas`.
-2. Sube este proyecto (ver comandos abajo).
-3. Ve a **Settings → Pages** en el repositorio.
-4. En **Source**, selecciona la rama que contiene tu código (revisa si se llama `main` o `master`, según cómo la haya creado tu editor) y la carpeta `/ (root)`.
-5. Guarda y espera uno o dos minutos: GitHub mostrará la URL pública del sitio.
-
-```bash
-git remote add origin https://github.com/<tu-usuario-github>/descubre-ventanas.git
-git push -u origin master
-```
+1. Ve a **Settings → Pages** en el repositorio.
+2. En **Source**, selecciona la rama **`main`** y la carpeta `/ (root)`.
+3. Guarda y espera uno o dos minutos: GitHub mostrará la URL pública del sitio.
 
 ---
 
