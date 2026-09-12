@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto y Reservas | Descubre Ventanas</title>
+  <meta name="description" content="Contáctanos o solicita tu reserva para conocer el cantón Ventanas, Los Ríos, con Descubre Ventanas.">
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="encabezado">
+    <nav class="barra-nav">
+      <a href="index.html" class="marca">
+        <img src="images/logo.svg" alt="Logotipo de Descubre Ventanas">
+        <span class="nombre-agencia">Descubre Ventanas<span>Los Ríos · Ecuador</span></span>
+      </a>
+      <button class="boton-menu-movil" aria-label="Abrir menú" aria-expanded="false" id="botonMenu">&#9776;</button>
+      <ul class="menu-principal" id="menuPrincipal">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="destinos.html">Destinos</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="contacto.html" class="activo">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="banner-interno">
+      <h1>Contacto y Reservas</h1>
+      <p>Escríbenos y arma tu próxima escapada a Ventanas.</p>
+      <p class="migas">Inicio / Contacto</p>
+    </section>
+
+    <section>
+      <div class="contenedor contacto-envoltura">
+
+        <div class="info-contacto">
+          <h2>Hablemos de tu viaje</h2>
+          <p style="color: var(--texto-suave); margin: 12px 0 26px;">Completa el formulario con los datos de tu visita y nuestro equipo te contactará para confirmar disponibilidad y detalles del tour.</p>
+
+          <div class="item">
+            <div class="icono">📍</div>
+            <div>
+              <h3>Oficina</h3>
+              <p>Malecón de Ventanas, cantón Ventanas, Los Ríos</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="icono">📞</div>
+            <div>
+              <h3>Teléfono / WhatsApp</h3>
+              <p>+593 98 765 4321</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="icono">✉️</div>
+            <div>
+              <h3>Correo electrónico</h3>
+              <p>info@descubreventanas.ec</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="icono">🕒</div>
+            <div>
+              <h3>Horario de atención</h3>
+              <p>Lunes a sábado, 08:00 - 17:00</p>
+            </div>
+          </div>
+
+          <div class="redes-sociales">
+            <a href="#" aria-label="Facebook">FB</a>
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="WhatsApp">WA</a>
+          </div>
+        </div>
+
+        <form class="formulario" id="formularioReserva">
+          <div class="campo">
+            <label for="nombre">Nombre completo <span class="requerido">*</span></label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+          </div>
+
+          <div class="fila-doble">
+            <div class="campo">
+              <label for="correo">Correo electrónico <span class="requerido">*</span></label>
+              <input type="email" id="correo" name="correo" placeholder="tucorreo@ejemplo.com" required>
+            </div>
+            <div class="campo">
+              <label for="telefono">Teléfono <span class="requerido">*</span></label>
+              <input type="tel" id="telefono" name="telefono" pattern="[0-9+ ]{7,15}" placeholder="09xxxxxxxx" required>
+            </div>
+          </div>
+
+          <div class="fila-doble">
+            <div class="campo">
+              <label for="destino">Destino o actividad <span class="requerido">*</span></label>
+              <select id="destino" name="destino" required>
+                <option value="" disabled selected>Selecciona una opción</option>
+                <option value="malecon">Malecón de Ventanas</option>
+                <option value="playa-zapotal">Playa del Río Zapotal</option>
+                <option value="cascadas-san-jacinto">Cascadas San Jacinto</option>
+                <option value="rio-sibimbe">Río Sibimbe</option>
+                <option value="rio-oncebi">Río Oncebí</option>
+                <option value="ruta-maiz">Ruta Rural del Maíz</option>
+                <option value="paquete-completo">Paquete completo / no estoy seguro</option>
+              </select>
+            </div>
+            <div class="campo">
+              <label for="tipoServicio">Tipo de servicio <span class="requerido">*</span></label>
+              <select id="tipoServicio" name="tipoServicio" required>
+                <option value="" disabled selected>Selecciona una opción</option>
+                <option value="cascadas">Tour Cascadas San Jacinto</option>
+                <option value="fluvial">Tour Fluvial de Ventanas</option>
+                <option value="agroturistico">Ruta Agroturística del Maíz</option>
+                <option value="gastronomico">Ruta Gastronómica Ventanense</option>
+                <option value="fin-de-semana">Paquete Fin de Semana Ventanas</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="fila-doble">
+            <div class="campo">
+              <label for="fecha">Fecha tentativa <span class="requerido">*</span></label>
+              <input type="date" id="fecha" name="fecha" required>
+            </div>
+            <div class="campo">
+              <label for="personas">Número de personas <span class="requerido">*</span></label>
+              <input type="number" id="personas" name="personas" min="1" max="30" value="1" required>
+            </div>
+          </div>
+
+          <div class="campo">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos algo más sobre tu visita (horarios, necesidades especiales, etc.)"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primario">Enviar solicitud</button>
+          <p class="nota-formulario" id="mensajeConfirmacion" hidden>¡Gracias! Tu solicitud fue registrada. Este es un formulario de demostración, sin envío real de datos.</p>
+          <p class="nota-formulario">Este proyecto es de fines académicos: no se procesan pagos ni reservas reales.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="fondo-alterno">
+      <div class="contenedor">
+        <div class="seccion-titulo">
+          <h2>Cómo llegar a Ventanas</h2>
+          <p>Ubicación referencial de la ciudad de Ventanas, cantón Ventanas, Los Ríos.</p>
+        </div>
+        <div class="mapa-envoltura">
+          <iframe
+            src="https://www.google.com/maps?q=Ventanas,%20Los%20R%C3%ADos,%20Ecuador&output=embed"
+            title="Mapa de ubicación de Ventanas, Los Ríos"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie-pagina">
+    <div class="contenedor">
+      <div class="pie-grid">
+        <div>
+          <div class="pie-marca">
+            <img src="images/logo.svg" alt="Logotipo Descubre Ventanas">
+            <span>Descubre Ventanas</span>
+          </div>
+          <p>Agencia de turismo ficticia con fines académicos, dedicada a promocionar el cantón Ventanas, provincia de Los Ríos, Ecuador.</p>
+        </div>
+        <div>
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="destinos.html">Destinos</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contacto</h4>
+          <ul>
+            <li>Malecón de Ventanas, Los Ríos</li>
+            <li>+593 98 765 4321</li>
+            <li>info@descubreventanas.ec</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Síguenos</h4>
+          <div class="redes-sociales">
+            <a href="#" aria-label="Facebook">FB</a>
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="WhatsApp">WA</a>
+          </div>
+        </div>
+      </div>
+      <div class="pie-inferior">
+        <p>&copy; 2026 Descubre Ventanas — Proyecto académico de Paolo Vinicio Cuisana Pérez. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const botonMenu = document.getElementById('botonMenu');
+    const menuPrincipal = document.getElementById('menuPrincipal');
+    botonMenu.addEventListener('click', () => {
+      const abierto = menuPrincipal.classList.toggle('abierto');
+      botonMenu.setAttribute('aria-expanded', abierto);
+    });
+
+    const formulario = document.getElementById('formularioReserva');
+    const mensajeConfirmacion = document.getElementById('mensajeConfirmacion');
+    formulario.addEventListener('submit', (evento) => {
+      evento.preventDefault();
+      mensajeConfirmacion.hidden = false;
+      formulario.reset();
+    });
+  </script>
+</body>
+</html>
