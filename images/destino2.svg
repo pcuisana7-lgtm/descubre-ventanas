@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="g2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dff1f7"/>
+      <stop offset="60%" stop-color="#7fc7d9"/>
+      <stop offset="60.1%" stop-color="#e3dcc4"/>
+      <stop offset="100%" stop-color="#c9bd94"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#g2)"/>
+  <circle cx="80" cy="55" r="26" fill="#f6c453"/>
+  <g stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.85">
+    <path d="M120 120 q15 -18 30 0 q15 -18 30 0" fill="none"/>
+    <path d="M220 150 q15 -18 30 0 q15 -18 30 0" fill="none"/>
+  </g>
+  <ellipse cx="150" cy="230" rx="18" ry="6" fill="#b0a274"/>
+  <ellipse cx="260" cy="245" rx="24" ry="7" fill="#b0a274"/>
+  <text x="200" y="278" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="18" fill="#154f61">Playa del Río Zapotal</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="g4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bfe3c0"/>
+      <stop offset="100%" stop-color="#5fb8dd"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#g4)"/>
+  <path d="M0 210 Q100 190 200 210 T400 210 V300 H0 Z" fill="#1f6f8b"/>
+  <g fill="#3f7d3a">
+    <path d="M60 210 q0 -55 18 -80 q18 25 18 80 Z"/>
+    <path d="M100 210 q0 -45 16 -70 q16 25 16 70 Z"/>
+  </g>
+  <g fill="#3f7d3a">
+    <path d="M300 210 q0 -50 18 -75 q18 25 18 75 Z"/>
+    <path d="M340 210 q0 -40 14 -62 q14 22 14 62 Z"/>
+  </g>
+  <text x="200" y="270" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="18" fill="#0f3a2a">Río Sibimbe</text>
+</svg>

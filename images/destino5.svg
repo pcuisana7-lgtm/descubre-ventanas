@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="g5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fdf1c7"/>
+      <stop offset="100%" stop-color="#bfe3c0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#g5)"/>
+  <path d="M0 220 Q100 200 200 220 T400 220 V300 H0 Z" fill="#1f6f8b" opacity="0.85"/>
+  <g stroke="#2e5d29" stroke-width="4" fill="none" opacity="0.8">
+    <path d="M50 220 Q50 175 40 155"/>
+    <path d="M80 220 Q80 165 70 145"/>
+    <path d="M330 220 Q330 180 340 160"/>
+    <path d="M360 220 Q360 170 350 150"/>
+  </g>
+  <g fill="#ffffff">
+    <path d="M180 130 q10 -10 20 0 q-10 6 -20 0Z"/>
+    <path d="M220 110 q10 -10 20 0 q-10 6 -20 0Z"/>
+  </g>
+  <text x="200" y="270" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="18" fill="#123a1f">Río Oncebí</text>
+</svg>
